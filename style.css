@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: none;
+    color: white !;
+    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Victor Mono', monospace !important;
+    
+}
+
+.content{
+    width: 80vw;
+}
+
+#Me
+{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    
+}
+
+nav, main, footer
+{
+    align-content:center ;
+}
+
+.nav-bar 
+{
+    float: left;
+    height: 100%;
+    background-color: teal;
+    overflow:hidden;
+    width: 20vw;
+    position: sticky;
+    top: 0;
+    height:auto;
+    overflow-y: auto; 
+    left: 0;
+}
+
+.nav-bar ul 
+{
+    margin-top: 30%;
+}
+
+.nav-bar li 
+{
+    margin-bottom: 1rem;
+    padding: 10%;
+}
+
+.nav-bar li:hover
+ {
+   background-color: rgb(15, 196, 196);
+}
+
+.nav-bar a 
+{
+    color:white;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Victor Mono', monospace;
+    text-decoration: none;
+}
+
+main 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+footer 
+{
+    background-color:#01435b;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.NameBg
+{
+    background-color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 35%;
+}
+.mailcolour
+{
+    color: white;
+}
+
+main
+{
+    text-align: center;
+
+}
+
+.one
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MeImage
+{
+    width: 50%;
+
+    margin-right: 2%;
+    
+}
+
+.MeName
+{
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Victor Mono', monospace;
+    font-size: 5rem;
+}
+
+h1
+{
+    margin-left: 12%;
+}
+
+.turqouis
+{
+    background-color:teal;
+}
+
+.two
+{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Victor Mono', monospace;
+    font-size: 1rem;
+    background-color: rgba(206, 203, 203, 0.922);
+}
+
+.SecondHeaderBackground
+{
+    background-color: teal;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+.box
+ {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.box1 
+{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    margin: auto;
+    display: flex;
+}
+
+
+
+h2 
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p 
+{
+    font-size: 14px;
+    margin: 0;
+}
+
+#gallery ul 
+{ display: flex; 
+justify-content: space-between;
+list-style-type: none;
+ }
+
+#gallery li 
+{
+
+display: flex; 
+float: left; 
+padding: 3rem; 
+
+}
+
+#gallery img 
+{
+border-style: none; 
+}
+
+#gallery a 
+{ 
+text-decoration: none; 
+color: #333; 
+font-style: italic; 
+}
+
+#gallery span 
+{ 
+display: none; 
+}  
+
+#gallery a:hover span 
+{ 
+display:block; 
+position:sticky;
+top: 65%; 
+left: 20%; 
+text-align: center;
+}
+
+
+.LinkColor
+{
+color: black;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Victor Mono', monospace !important;
+}
+
+table, th, td {
+    border: 1px solid #000; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f0f0f0; 
+}
+
+.footerStyle
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.FormWrapper {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: teal;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.formstyle {
+    margin-bottom: 20px;
+}
+
+.formstyle label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.submitButton {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+.Sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh; 
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-image: url(/Assets/TealForm.jpeg);
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .nav-bar {
+        width: 100%;
+        position: static;
+        background-color: teal;
+        display: block; 
+    }
+    
+    .nav-bar ul {
+        margin-top: 0; 
+    }
+
+    .nav-bar li {
+        margin-bottom: 1rem;
+        padding: 3%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .content{
+        width: auto !important;
+        margin: auto;
+    }
+
+    .MeImage{
+        display: none;
+    }
+
+    #gallery ul
+    {
+        display: flex;
+        flex-direction: column;
+   
+    }
+    #gallery
+    {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    }
+
+    .box,.box1
+    {
+        padding: 0;
+    }
+
+    h1
+    {
+    margin: auto;
+    }
+  
+}
