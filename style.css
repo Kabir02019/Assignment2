@@ -28,7 +28,7 @@ body
     
 }
 
-nav, main, footer
+menu, main, footer
 {
     align-content:center ;
 }
@@ -326,6 +326,11 @@ textarea {
     resize: vertical; 
 }
 
+.videoclass
+{
+margin: auto;
+}
+
 @media only screen and (max-width: 1000px) 
 {
     .nav-bar {
@@ -379,5 +384,12 @@ textarea {
     {
     margin: auto;
     }
+
+    .videoclass
+    {
+        display: none;
+    }
+    
+
   
 }
